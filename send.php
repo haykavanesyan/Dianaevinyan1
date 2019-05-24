@@ -1,8 +1,8 @@
 <meta charset="utf-8"> 
 <?php 
 if(isset($_POST['submit'])){
-    $to = "haykavanesyan09@gmail.com"; // this is your Email address
-    $from = $_POST['email']; // this is the sender Email address
+    $to = "haykavanesyan09@gmail.com";
+    $from = $_POST['email']; 
     $first_name = $_POST['first_name'];
     $note_text="Имя : first_name \r\n Email : $email \r\n Дополнительная информация : $message";
 
